@@ -1,9 +1,10 @@
 #Check code in project with ESlint
 name: Lint
-on: [push]
+on: push
 jobs:
   eslint-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: make lint
+      
