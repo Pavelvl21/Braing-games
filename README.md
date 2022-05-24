@@ -2,4 +2,4 @@
 [![Actions Status](https://github.com/Pavelvl21/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Pavelvl21/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-![eslint](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/eslint>/badge.svg)
+![eslint](https://github.com/Pavelvl21/frontend-project-lvl1/actions/workflows/eslint>/badge.svg)
