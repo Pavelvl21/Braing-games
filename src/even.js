@@ -7,7 +7,7 @@ export default () => {
   let count = 1;
   while (count <= 3) {
     const genRandomNumber = Math.ceil(Math.random() * 100);
-    const answer = readlineSync.question(`Question: ${genRandomNumber}\nYour answer: `);
+    const answer = readlineSync.question(`Answer "yes" if the number is even, otherwise answer "no": ${genRandomNumber}\nYour answer: `);
     if ((isEven(genRandomNumber) === true && answer === 'yes') || (isEven(genRandomNumber) === false && answer === 'no')) {
       console.log('Correct!');
       count += 1;
