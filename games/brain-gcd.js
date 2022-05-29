@@ -7,7 +7,7 @@ const questionBlockGenerator = () => {
   const secondRandomNumber = getRandomNumber();
   const allDivisors = [];
   const greatestDivisor = [];
-  // push all dividors to stak
+  // push all divisors to stak
   for (let i = 0, j = 0; i <= firstRandomNumber || j <= secondRandomNumber; i += 1, j += 1) {
     if (firstRandomNumber % i === 0) {
       allDivisors.push(i);
