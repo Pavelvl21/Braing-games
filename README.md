@@ -5,3 +5,4 @@
 [![Lint](https://github.com/Pavelvl21/frontend-project-lvl1/actions/workflows/eslint.yml/badge.svg)](https://github.com/Pavelvl21/frontend-project-lvl1/actions/workflows/eslint.yml)
 [![asciicast](https://asciinema.org/a/LevyLtdWFSi412PnPbcyMyGwJ.svg)](https://asciinema.org/a/LevyLtdWFSi412PnPbcyMyGwJ)
 [![asciicast](https://asciinema.org/a/sMi4Sd1o2dPyiQ41t5uE6aZON.svg)](https://asciinema.org/a/sMi4Sd1o2dPyiQ41t5uE6aZON)
+[![asciicast](https://asciinema.org/a/FRWjcdxoU1HD1KLuqzuSBgYzw.svg)](https://asciinema.org/a/FRWjcdxoU1HD1KLuqzuSBgYzw)
