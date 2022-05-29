@@ -16,7 +16,7 @@ export default (taskCondition, questionBlockGenerator) => {
     const getAnswer = readlineSync.question('Your answer: ');
     if (getAnswer === trueAnswer) {
       console.log('Correct!');
-      tasksCount += 1;
+      tasksCount -= 1;
     } else {
       console.log(`'${getAnswer}' is wrong answer ;(. Correct answer was '${trueAnswer}'\nLet's try again, ${userName}!`);
       return;
