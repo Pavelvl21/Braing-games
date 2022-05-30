@@ -1,11 +1,5 @@
 #!/usr/bin/env node
-import processGenerator, { getRandomNumber } from '../src/index.js';
+import processGenerator from '../src/index.js';
+import { gameName, questionBlockGenerator, taskCondition } from '../src/even.js';
 
-const taskCondition = 'Answer "yes" if the number is even, otherwise answer "no".';
-const questionBlockGenerator = () => {
-  // generate Q/A constants
-  const question = getRandomNumber();
-  const trueAnswer = question % 2 === 0 ? 'yes' : 'no';
-  return [`${question}`, trueAnswer];
-};
-processGenerator(taskCondition, questionBlockGenerator);
+export const brainEven = processGenerator(gameName, taskCondition, questionBlockGenerator);

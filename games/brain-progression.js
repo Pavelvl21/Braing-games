@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import processGenerator from '../src/index.js';
-import { questionBlockGenerator, taskCondition } from '../src/progression.js';
+import { gameName, questionBlockGenerator, taskCondition } from '../src/progression.js';
 
-questionBlockGenerator();
-processGenerator(taskCondition, questionBlockGenerator);
+processGenerator(gameName, taskCondition, questionBlockGenerator);
