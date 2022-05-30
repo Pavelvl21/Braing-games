@@ -7,6 +7,7 @@ export const questionBlockGenerator = () => {
   const randomNumber = getRandomNumber();
   const isPrime = (number) => {
     const checkNumber = Math.floor(number / 2);
+    if (number === 1) { return false; }
     for (let i = 2; i <= checkNumber; i += 1) {
       if (number % i === 0) {
         return false;
