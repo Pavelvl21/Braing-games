@@ -10,7 +10,7 @@ const questionBlockGenerator = () => {
   const progressionCounter = Math.ceil(getRandomNumber() / 10);
   progression.push(firstNumber);
   let iterCount = 10;
-  while (iterCount < 10) {
+  while (iterCount > 0) {
     progression.push(progressionCounter + firstNumber);
     firstNumber = progressionCounter + firstNumber;
     iterCount -= 1;
