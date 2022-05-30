@@ -3,6 +3,7 @@ import processGenerator, { getRandomNumber } from '../src/index.js';
 
 const taskCondition = 'What is the result of the expression?';
 const questionBlockGenerator = () => {
+  // generate expression operators
   const firstRandomNumber = getRandomNumber();
   const secondRandomNumber = getRandomNumber();
   const generateSymbol = () => {
@@ -13,6 +14,7 @@ const questionBlockGenerator = () => {
       return '-';
     } return '+';
   };
+  // generate expression
   const operator = `${generateSymbol()}`;
   let result;
   let operation;
@@ -31,7 +33,9 @@ const questionBlockGenerator = () => {
       break;
     default:
       break;
-  } const question = operation;
+  }
+  // generate Q/A constants
+  const question = operation;
   const trueAnswer = result;
   return [`${question}`, `${trueAnswer}`];
 };
