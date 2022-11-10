@@ -13,7 +13,7 @@ How to install: clone this repo, run 'make install' on the command line in root 
 Package includes five games: 'brain-even', 'brain-calc', 'brain-gcd', 'brain-progression', 'brain-prime'.
 To start the game, write name of the game on the command line.
 
-### Asciinema records
+### DEMO
 [![asciicast](https://asciinema.org/a/hWwYXrZt1maHwklQbA2E3nSc1.svg)](https://asciinema.org/a/hWwYXrZt1maHwklQbA2E3nSc1)
 [![asciicast](https://asciinema.org/a/8ew2YeC9trIW9ZnK2iWcBtQh3.svg)](https://asciinema.org/a/8ew2YeC9trIW9ZnK2iWcBtQh3)
 [![asciicast](https://asciinema.org/a/Mpa8YtmCavFMM4VdU8qnzn1sz.svg)](https://asciinema.org/a/Mpa8YtmCavFMM4VdU8qnzn1sz)
