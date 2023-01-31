@@ -6,7 +6,7 @@
 
 ### Install info
 Requirements:
-Node.js 13.0.0 or later
+Node.js 13.0.0 or later.
 How to install: clone this repo, run 'make install' on the command line in root repo directory.
 
 ### How-to-play info
